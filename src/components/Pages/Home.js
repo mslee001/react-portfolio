@@ -11,12 +11,12 @@ function Home() {
                     <h1 className="uppercase white title">Welcome to Megan's Portfolio</h1>
                     <h3 className="uppercase white sub-title faded">Please enter</h3>
                 </div>
-                <a href="/About" className="u-inline-block">
+                <a href="/#/react-portfolio/about" className="u-inline-block">
                     <button className="btn-light outline">
                         About Me
                     </button>
                 </a>
-                <a href="/Projects" className="u-inline-block">
+                <a href="/#/react-portfolio/projects" className="u-inline-block">
                     <button className="btn-light outline">
                         Projects
                     </button>
