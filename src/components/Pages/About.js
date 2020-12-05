@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 function About() {
     return (
         <div>
-            <Header />
+            <Header /> 
             <section className="section content">
                 <div className="row">
                     <div className="col-12"></div>
