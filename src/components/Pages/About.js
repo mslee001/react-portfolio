@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function About() {
     return (
         <div>
+            <Header />
             <section className="section content">
                 <div className="row">
                     <div className="col-12"></div>
@@ -37,6 +40,7 @@ function About() {
                     </div>
                 </div>
             </section>
+            <Footer />
         </div>
     );
 }

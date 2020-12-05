@@ -1,9 +1,12 @@
 import React from "react";
 import Project from "./../Project";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function Projects() {
     return(
         <div>
+            <Header/>
             <Project
             title="StarPlannr Web App"
             screenshot="./assets/StarPlannr.PNG"
@@ -42,6 +45,7 @@ function Projects() {
             github="https://github.com/pabloivanjuarez/project_deux"
             link="http://project-deux.herokuapp.com/"
             />
+            <Footer/>
         </div>
     );
 }
