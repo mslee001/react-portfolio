@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 function Contact() {
     return(
         <div>
-            <Header/>
+            <Header />
             <div className="content u-box">
                     <div className="form-section">
                         <label className="font-bold">Contact</label>
@@ -32,7 +32,7 @@ function Contact() {
                     </div>
                     <input type="submit" className="btn-dark u-center"/>
                 </div>
-                <Footer/>
+                <Footer />
         </div>
     )
 };

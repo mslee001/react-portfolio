@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 function Projects() {
     return(
         <div>
-            <Header/>
+            <Header />
             <Project
             title="StarPlannr Web App"
             screenshot="./assets/StarPlannr.PNG"
@@ -45,7 +45,7 @@ function Projects() {
             github="https://github.com/pabloivanjuarez/project_deux"
             link="http://project-deux.herokuapp.com/"
             />
-            <Footer/>
+            <Footer />
         </div>
     );
 }
