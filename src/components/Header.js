@@ -10,7 +10,7 @@ function Header() {
             <div className="header header-animated text-light">
                 <div className="header-brand">
                     <div className="nav-item no-hover">
-                        <a href="/react-portfolio/#/react-portfolio"><h6 className="title">Megan Sleezer</h6></a>
+                        <a href="/react-portfolio/#"><h6 className="title">Megan Sleezer</h6></a>
                     </div>
                     <div className="nav-item nav-btn" id="header-btn">
                         <span></span>
