@@ -2,37 +2,48 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 function Header() {
+
+    const location = useLocation();
+
     return (
         <header>
-        <div class="header header-animated text-light">
-          <div class="header-brand">
-              <div class="nav-item no-hover">
-                  <a href="index.html"><h6 class="title">Megan Sleezer</h6></a>
-              </div>
-              <div class="nav-item nav-btn" id="header-btn">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-              </div>
-          </div>
-          <div class="header-nav" id="header-menu">            
-              <div class="nav-right">
-                  <div class="nav-item text-center">
-                      <a href="index.html">Home</a>
-                  </div>
-                  <div class="nav-item active">
-                      <a href="about.html">About</a>
-                  </div>
-                  <div class="nav-item">
-                      <a href="portfolio.html">Projects</a>
-                  </div>
-                  <div class="nav-item">
-                      <a href="contact.html">Contact</a>
-                  </div>
-              </div>
-          </div>
-      </div>
-    </header>
+            <div className="header header-animated text-light">
+                <div className="header-brand">
+                    <div className="nav-item no-hover">
+                        <a href="/"><h6 className="title">Megan Sleezer</h6></a>
+                    </div>
+                    <div className="nav-item nav-btn" id="header-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div className="header-nav" id="header-menu">
+                    <div className="nav-right">
+                        <div className="nav-item text-center">
+                            <Link to="/" className={location.pathname === "/" ? "nav-item active" : "nav-item"}>
+                                Home
+                            </Link>
+                        </div>
+                        <div className="nav-item">
+                        <Link to="/about" className={location.pathname === "/About" ? "nav-item active" : "nav-item"}>
+                                About
+                            </Link>
+                        </div>
+                        <div className="nav-item">
+                        <Link to="/projects" className={location.pathname === "/Projects" ? "nav-item active" : "nav-item"}>
+                                Projects
+                            </Link>
+                        </div>
+                        <div className="nav-item">
+                        <Link to="/contact" className={location.pathname === "/Contact" ? "nav-item active" : "nav-item"}>
+                                Contact
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
     );
 }
 
