@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "./../Project";
 import Header from "../Header";
-import Footer from "/../Footer";
+import Footer from "../Footer";
 
 function Projects() {
     return(
