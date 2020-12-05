@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <HashRouter basename="react-portfolio">
+    <HashRouter>
       <div>
         <Route exact path="/" component={Home} />
         <Header/>
