@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    AOS.init();
     
     $('#header-btn').on('click', function(e) {
     $('#header-menu').toggleClass('active');
